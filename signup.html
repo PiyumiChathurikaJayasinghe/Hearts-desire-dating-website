@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="loginbody">
+	<div class="frame">
+		<h2>Sign Up</h2>
+		<form>
+			<div class="inputbox">
+				<input type="text" name="" required="">
+				<label>First Name</label>
+			</div>
+			<div class="inputbox">
+				<input type="text" name="" required="">
+				<label>Last Name</label>
+			</div>
+
+			<div class="inputbox">
+				<input type="text" name="" required="">
+				<label>NIC Number</label>
+			</div>
+
+			<div class="inputbox">
+				<input type="text" name="" required="">
+				<label>Email</label>
+			</div>
+			<div class="radios">
+				<label>Gender </label>
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Female</label>
+				<input type="radio" id="other" name="gender" value="other">
+				<label for="other">Other</label>
+			</div>
+			<div class="radios">
+				<label>Relationship Status</label>
+				<input type="radio" id="single" name="relationship" value="single">
+				<label for="male">Single</label>
+				<input type="radio" id="married" name="relationship" value="married">
+				<label for="female">Married</label>
+				<input type="radio" id="devoced" name="relationship" value="devoced">
+				<label for="other">Devoced</label>
+				<input type="radio" id="seperated" name="relationship" value="seperated">
+				<label for="other">Seperated</label>
+				<input type="radio" id="widow" name="relationship" value="widow">
+				<label for="other">Widow</label>
+			</div>
+
+
+			<div class="inputbox">
+				<input type="text" name="" required="">
+				<label>Address</label>
+			</div>
+			<div class="inputbox">
+				<input type="text" name="" required="">
+				<label>Phone Number</label>
+			</div>
+
+
+
+			<input type="submit" name="" value="Submit">
+			<form action="upload.php" method="post" enctype="multipart/form-data">
+  				<input type="file" name="fileToUpload" id="fileToUpload">
+  				<input type="upload" value="Upload Image" name="submit">
+			</form>
+
+
+		</form>
+	</div>
+	</div>
+</body>
+</html>
